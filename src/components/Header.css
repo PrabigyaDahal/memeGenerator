@@ -1,0 +1,94 @@
+
+.header {
+    display: flex;
+    height: 60px;
+    padding: 5px;
+    color: white;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+.logo {
+    height: 100%;
+    padding: 10px;
+}
+
+.title{
+    font-size: 1.25rem;
+    margin-left: 10px;
+}
+
+.projectName{
+    margin-left: auto;
+    margin-right: 6px;
+    font-size: 1.25rem;
+}
+/* CSS for main Section */
+
+form {
+    margin-top: 40px;
+    
+}
+.main--container{
+    padding: 35px;
+    display: grid;
+    grid-template: 40px 40px /1fr 1fr;
+    gap:20px;
+}
+.text--input{
+    font-family: "karla",sans-serif;
+    text-indent: 20px;
+    border: 1px solid #D5D4D8;
+    border-radius: 10px;
+}
+.button{
+    
+    grid-column: 1 / -1;
+    color: white;
+    font-family: "karla",sans-serif;
+    font-size: 1.25rem;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* CSS for meme image section */
+.meme-container{
+    position: relative;
+}
+.meme--image{
+    
+    max-width: 80%;
+    border-radius: 3px;
+    
+}
+.meme--text{
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 4px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+    
+}
+.top{
+    top: 0;
+}
+.bottom{
+    bottom: 0;
+}
